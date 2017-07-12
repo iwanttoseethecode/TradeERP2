@@ -1,0 +1,350 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="gttrade.guantang.com.tradeerp.TE04.TE040101Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="订单号："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/NoTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="平台交易号："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/No_PlatformTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="店铺名称："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/eShopNameTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="交易平台："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/PlatformTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="所在国家："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/ShippingAddress_CountryNameTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="订单状态："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/StatusTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="订单属性："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/AttributeTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="实收总额："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/AmountPaid_RMBTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="物流方式："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/ShippingMethodsTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="运单号："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/TrackingNoTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="付款交易号："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/PaymentNoTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="收款账号："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/SellerIDTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="买家留言："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/PlatformMessageTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="备注信息："
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/OrderNotesTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

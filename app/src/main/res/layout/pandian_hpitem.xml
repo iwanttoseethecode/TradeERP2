@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ItemLayout"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/picImgView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/pic_defalut"/>
+
+    <TextView
+        android:id="@+id/pickTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/pick_shape_yellow"
+        android:text="盘点"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/picImgView"
+        android:layout_toLeftOf="@id/pickTxtView"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SKU:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp"/>
+            <TextView
+                android:id="@+id/SKUcontentTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Gtyck0001"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="名称:"
+                android:textColor="@color/ziti666666"
+                android:ellipsize="end"
+                android:textSize="@dimen/ziti12sp" />
+
+            <TextView
+                android:id="@+id/NameTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账面数量:"
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti12sp"/>
+
+            <TextView
+                android:id="@+id/PandianNumTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="#40c394"
+                android:textSize="@dimen/ziti12sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="仓库:"
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti12sp"/>
+            <TextView
+                android:id="@+id/CKcontentTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="30"
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="库位:"
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti12sp"/>
+            <TextView
+                android:id="@+id/KWcontentTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="30"
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/themeBackgroundGrey"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/picImgView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="SKU"
+            android:textColor="@color/ziti666666"
+            android:textSize="@dimen/ziti16sp" />
+
+        <TextView
+            android:id="@+id/SKUTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginRight="10dp"
+            android:text="SKU"
+            android:textColor="@color/ziti666666"
+            android:textSize="@dimen/ziti16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="2px"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="货品名称"
+            android:textColor="@color/ziti666666"
+            android:textSize="@dimen/ziti16sp" />
+
+        <TextView
+            android:id="@+id/ItemNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:text="SKU"
+            android:textColor="@color/ziti666666"
+            android:textSize="@dimen/ziti16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="2px"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="所在库位"
+            android:textColor="@color/ziti666666"
+            android:textSize="@dimen/ziti16sp" />
+
+        <TextView
+            android:id="@+id/StoragePositionTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:text="SKU"
+            android:textColor="@color/ziti666666"
+            android:textSize="@dimen/ziti16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="2px"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="需拣数量"
+            android:textColor="@color/ziti666666"
+            android:textSize="@dimen/ziti16sp" />
+
+        <TextView
+            android:id="@+id/PickNumTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:text="SKU"
+            android:textColor="@color/ziti666666"
+            android:textSize="@dimen/ziti16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="拣货数量"
+            android:textColor="@color/ziti666666"
+            android:textSize="@dimen/ziti16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/minusImgView"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:src="@mipmap/jianhao" />
+
+            <EditText
+                android:id="@+id/PickedEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:background="@null"
+                android:gravity="center" />
+
+            <ImageButton
+                android:id="@+id/plusImgView"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:src="@mipmap/jiahao" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancelTxtView"
+            style="@style/title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@color/ziti999999"
+            android:gravity="center"
+            android:text="取消" />
+
+        <TextView
+            android:id="@+id/confirmTxtView"
+            style="@style/title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:text="确定" />
+    </LinearLayout>
+</LinearLayout>

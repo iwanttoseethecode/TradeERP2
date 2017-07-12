@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gttrade.guantang.com.tradeerp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".base.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TE00.TE00Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TE01.TE01Activity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".TE02.TE02Activity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".TE04.TE04Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".TE04.TE0401Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TE05.TE05Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TE06.TE06Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ZXing.ScanCaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ScanInterfaceTheme" />
+        <activity
+            android:name=".TE06.TE0601Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".TE07.TE07Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TE03.TE03Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TE08.TE08Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullscreen" />
+
+        <service
+            android:name=".service.NetWorkStatusService"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5858e3a5c62dca1663000bef" />
+
+        <service
+            android:name=".updateVersionutil.UpdateVersionService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".TE09.TE09Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".TE09.TE0901.TE0901Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TE10.TE10Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TE09.TE0902.TE0902Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".TE09.TE0903.TE0903Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ZXing.ParentScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TE11Activty.TE11Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ScanInterfaceTheme" />
+        <activity
+            android:name=".TE11Activty.TE1101.TE1101Activity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".TE11Activty.TE1101.MyIntentService" />
+
+        <activity android:name=".TE12.TE12Activity" />
+        <activity android:name=".TE13.TE13Activity" />
+        <activity android:name=".TE12.TE1201Activity"
+            android:windowSoftInputMode="adjustPan"/>
+    </application>
+
+</manifest>

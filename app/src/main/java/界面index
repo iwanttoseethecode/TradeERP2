@@ -1,0 +1,43 @@
+TE00 ------- 启动页
+
+TE01 -------- 登录页
+
+TE02Activity ------- 首页
+        TE0201Fragment--------- 首页fragment
+        TE0202Fragment--------- 订单fragment
+        TE0203Fragment--------- 货品管理fragment
+        TE0204Fragment--------- 分析统计fragment
+TE03 -------注册
+
+TE04Activity ------- 订单分类展示页面(点击 今日订单、今日发货、历史遗留、剩余未发 进去的页面)
+        TE0401Activity ---------- 订单详情界面
+                TE040101Fragment ------ 订单信息fragment
+                TE040102Fragment ------ 收件人信息fragment
+                TE040103Fragment ------ 货品信息fragment
+
+
+TE05Activity ------- 货品管理详情界面
+
+TE06Activity ------- 拣货主界面
+       TE0601Activity ---------- 已拣货品界面
+
+TE07Activity ------- 关于我们界面
+TE08Activity ------- 导航页
+
+TE09Activity -------- 盘点界面
+        TE0901Activity -------- 盘点筛选界面
+        TE0902Activity -------- 已盘货品界面
+        TE0903Activity -------- 盘点数核查界面
+TE10Activity -------- 货品目录界面
+
+TE11Activity -------- 扫描发货界面
+       TE1101Activity ---------- 订单发货界面
+
+TE12Activity ------- 订单筛选界面
+       TE1201Activity -------- 国家选择界面
+
+
+TE13Activity ------- 货品筛选界面
+
+
+

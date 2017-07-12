@@ -1,0 +1,243 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="gttrade.guantang.com.tradeerp.TE04.TE040102Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Receiver:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/ReceiverTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Street1:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/Street1TxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Street2:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/Street2TxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="County:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/CountyTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="City:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/CityTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="State:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/StateTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="PostalCode:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/PostalCodeTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Phone1:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/Phone1TxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Phone2:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/Phone2TxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Email:"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+
+            <TextView
+                android:id="@+id/EmailTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti333333"
+                android:textSize="@dimen/ziti16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

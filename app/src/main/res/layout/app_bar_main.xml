@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".TE02.TE02Activity">
+
+
+
+    <FrameLayout
+        android:id="@+id/contentlayout"
+        android:layout_above="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/homepageRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:button="@null"
+            android:drawableTop="@drawable/home_selector_radiobutton"
+            android:textColor="@drawable/selector_radio_textcolor_change"
+            android:checked="true"
+            android:text="首页"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:id="@+id/orderRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:button="@null"
+            android:drawableTop="@drawable/notebook_selector_radiobutton"
+            android:textColor="@drawable/selector_radio_textcolor_change"
+            android:text="订单"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:id="@+id/goodsRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:button="@null"
+            android:drawableTop="@drawable/goods_selector_radiobutton"
+            android:textColor="@drawable/selector_radio_textcolor_change"
+            android:text="货品管理"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:id="@+id/barchartRadionBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:button="@null"
+            android:drawableTop="@drawable/barchart_selector_radiobutton"
+            android:textColor="@drawable/selector_radio_textcolor_change"
+            android:text="分析统计"
+            android:textSize="12sp"/>
+    </RadioGroup>
+
+    <!--<gttrade.guantang.com.tradeerp.custom.ControlScrollViewPager-->
+        <!--android:id="@+id/myControlScrollViewPager"-->
+        <!--android:layout_above="@+id/radioGroup"-->
+        <!--android:layout_below="@+id/title_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+</RelativeLayout>

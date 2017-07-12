@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ItemLayout"
+    android:background="@color/white"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/StatusTxtView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/pick_shape_yellow"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="@color/themeRed"
+        android:textSize="@dimen/ziti16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/StatusTxtView"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="订单号："
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti14sp" />
+
+            <TextView
+                android:id="@+id/dingdanTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti14sp"
+                android:maxLines="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="运单号："
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti14sp" />
+
+            <TextView
+                android:id="@+id/yundanTxtView"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti14sp"
+                android:maxLines="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="物流方式："
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti14sp" />
+
+            <TextView
+                android:id="@+id/wuliuTextView"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ziti666666"
+                android:textSize="@dimen/ziti14sp"
+                android:maxLines="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

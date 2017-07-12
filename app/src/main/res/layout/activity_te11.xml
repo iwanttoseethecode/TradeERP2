@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_te11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="gttrade.guantang.com.tradeerp.TE11Activty.TE11Activity">
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent" >
+
+        <LinearLayout
+            android:id="@+id/titleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/viewfinder_mask"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:src="@mipmap/back_white_btn" />
+
+            <TextView
+                style="@style/title_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="二维码/条形码" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/bottomRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/viewfinder_mask_more"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/dingdanhaoRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="订单号"
+                android:button="@null"
+                android:gravity="center"
+                android:checked="true"
+                android:textColor="@drawable/selector_scanbottom_textcolor"
+                android:textSize="@dimen/ziti14sp"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/yundanhaoRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="运单号"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@drawable/selector_scanbottom_textcolor"
+                android:textSize="@dimen/ziti14sp"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/dingAndyunRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="订单号\n+\n运单号"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@drawable/selector_scanbottom_textcolor"
+                android:textSize="@dimen/ziti14sp"
+                android:layout_weight="1"/>
+        </RadioGroup>
+
+        <gttrade.guantang.com.tradeerp.TE11Activty.NewViewfinderView
+            android:id="@+id/viewfinder_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/titleLayout"
+            android:layout_above="@id/bottomRadioGroup"
+            android:background="@color/transparent" />
+
+    </RelativeLayout>
+
+</FrameLayout>

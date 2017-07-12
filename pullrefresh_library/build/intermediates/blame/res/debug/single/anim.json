@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "K:\\as_project\\TradeERP2\\pullrefresh_library\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "K:\\as_project\\TradeERP2\\pullrefresh_library\\src\\main\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "K:\\as_project\\TradeERP2\\pullrefresh_library\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "K:\\as_project\\TradeERP2\\pullrefresh_library\\src\\main\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "K:\\as_project\\TradeERP2\\pullrefresh_library\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "K:\\as_project\\TradeERP2\\pullrefresh_library\\src\\main\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "K:\\as_project\\TradeERP2\\pullrefresh_library\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "K:\\as_project\\TradeERP2\\pullrefresh_library\\src\\main\\res\\anim\\slide_out_to_bottom.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "K:\\as_project\\TradeERP2\\pullrefresh_library\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "K:\\as_project\\TradeERP2\\pullrefresh_library\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "K:\\as_project\\TradeERP2\\pullrefresh_library\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "K:\\as_project\\TradeERP2\\pullrefresh_library\\src\\main\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    }
+]

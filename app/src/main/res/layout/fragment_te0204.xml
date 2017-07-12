@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="gttrade.guantang.com.tradeerp.TE02.TE0204Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/title_style"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/themeRed"
+        android:gravity="center"
+        android:text="分析统计" />
+
+    <gttrade.guantang.com.tradeerp.custom.DispatchWebView
+        android:id="@+id/myWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/reloadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="网络不给力，请稍后再试"
+        android:textColor="@color/ziti666666"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</LinearLayout>
